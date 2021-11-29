@@ -1,0 +1,21 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    hostname: localhost
+
+#Mail properties
+smtp:
+  host: 3.64.181.237
+  port: 25
+  user: support@fiverity.com
+  password: 
+
+admin:
+  name: FiVerity Support
+  email:
+    from:
+      address: support@fiverity.com
